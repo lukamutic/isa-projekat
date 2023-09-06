@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+td {
+	padding: 5px;
+}
+
+.list td {
+	padding: 5px;
+	border-color: gray;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.error {
+	color: red;
+}
+
+a {
+	padding: 10px;
+}
+
+.nav a {
+	padding: 10px;
+	color: white;
+}
+
+.nav a:hover {
+	background-color: red;
+	color: white;
+}
+
+.ad {
+	color: black;
+	padding: 10px;
+	margin: 10px;
+	flex-basis: 22%;
+	border-color: rgb(0, 128, 192);
+	border-width: 5px;
+	border-style: solid;
+	border-radius: 20px;	
+}
+
+.ads-holder {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.nav {
+	background-color: gray;
+	padding: 10px;
+}
